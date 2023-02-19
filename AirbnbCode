@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class AlarmClockVillalobosEstrella {
+     public static void main(String[] args) {
+     //Display "Enter a number: " " message
+     System.out.println("Enter a number: ");
+     Scanner input = new Scanner(System.in);
+	int days = input.nextInt();     
+    	switch (days) {
+    		//Display "10:00 am" message
+    		case 0: System.out.println("10:00 am"); break;
+    		//Display "6:00 am" message
+    		case 1: System.out.println("6:00 am"); break;
+    		//Display "6:00 am" message
+    		case 2: System.out.println("6:00 am"); break;
+    		//Display "6:00 am" message
+    		case 3: System.out.println("6:00 am"); break;
+    		//Display "6:00 am" message
+    		case 4: System.out.println("6:00 am"); break;
+    		//Display "6:00 am" message
+    		case 5: System.out.println("6:00 am"); break;
+    		//Display "6:00 am" message
+    		case 6: System.out.println("10:00 am"); break;
+    		}
+     }
+}
